@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.0.0/firebase-messaging.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>PWA Push Notification & Photo Upload Demo</h1>
+        
+        <!-- Photo Upload -->
+        <div class="upload-container">
+            <input type="file" id="photo-input" accept="image/*">
+            <img id="photo-preview" alt="Image Preview">
+        </div>
+    </div>
+
+    <!-- Including the main JavaScript file -->
+    <!-- Ajoutez ces scripts dans votre fichier HTML -->
+    <script type="module" src="app.js"></script>
+</body>
+</html>
